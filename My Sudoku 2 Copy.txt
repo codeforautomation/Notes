@@ -1,0 +1,401 @@
+#this code is worked successfuly
+r1=[54,57,90]
+r2=[54,57,90]
+print(r2[0])
+print(len(r1))
+if(r1==r2):
+    print("success")
+else:
+    print("noteq")
+#thsi code is worked successfuly
+o1=[1,2,3]
+o2=[4,5,6]
+o3=[o1[0],o2[2],o1[1],o2[0]]
+print(o3)
+
+#this code is not work properly
+def sub_list(list1,list2): 
+    L1=len(list1)
+    L2=len(list2)
+    m=int(0)
+    n=int(0)
+    while(L2>m):        
+        if(L1>n):
+            if(list1[n]!=list2[m]):
+                list3=list1[n]
+                n=n+1
+            else:
+                n=n+1
+        else:
+            m=m+1
+            n=0
+        
+    return(list3)
+LST1=input("enter lst1 ")
+LST2=input("enter lst2 ")
+SUBRACT=sub_list(LST1,LST2)
+print(SUBRACT)
+
+#this code is worked successfuly
+r1=[1,3,4,6,8,0]
+r2=[1,3,4,6,8,0,2,8]
+r3=[x for x in r1 if x not in r2]
+print(r3)
+
+
+#this code is worked successfuly
+def add(a1,a2):
+    a3=a1+a2;
+    print(a3)
+    return"UDF-1 worked"
+m1=int(input("enter a1 "))
+m2=int(input("enter a2 "))
+m3=add(m1,m2)
+print(m3)
+
+#this code is worked successfully
+def sub_list(LST1,LST2):
+    LST3=[X for X in LST1 if X not in LST2]
+    print("UDF-2 worked")
+    return LST3
+list1=[1,3,2,4,5,7,0,11,22,33,44,55,66,77]
+list2=[2,5,7,8,0,3,4,6,44,55,77,88]
+list3=sub_list(list1,list2)
+print(list3)
+
+
+n=int(9);
+list1=[0]
+for i in range(n):
+    list1=int(input("enter"))
+    i=i+1
+print(list1)
+
+l1=list(str(input()))
+print(l1)
+print(l2)
+
+
+def sub_list(LST1,LST2):
+    LST3=[X for X in LST1 if X not in LST2]
+    print("UDF-2 worked")
+    return LST3
+list1=list(str(0123456789))
+list2=list(str(input("enter list2")))
+list3=sub_list(list1,list2)
+print(list3)
+
+#DATASET
+R=[0,0,0,0,0,0,0,0,0]
+R1=list(str(input("enter row1")))
+R2=list(str(input("enter row2")))
+R3=list(str(input("enter row3")))
+R4=list(str(input("enter row4")))
+R5=list(str(input("enter row5")))
+R6=list(str(input("enter row6")))
+R7=list(str(input("enter row7")))
+R8=list(str(input("enter row8")))
+R9=list(str(input("enter row9")))
+def sub_list(LST1,LST2):
+    LST3=[X for X in LST1 if X not in LST2]
+    print("UDF-2 worked")
+    return LST3
+DFT=list(str(1234567890))
+list3=sub_list(DFT,R1)
+print(list3)
+
+
+R=[0,1,2,3,4,5,6]
+n=5
+R[1]=str(input("enter row1"))
+R[2]=str(input("enter row2"))
+R[n]=str(input("enter row3"))
+print(R)
+
+
+#COLUMN DATA
+
+C1=list(str(input("enter column1")))
+C2=list(str(input("enter column2")))
+C3=list(str(input("enter column3")))
+C4=list(str(input("enter column4")))
+C5=list(str(input("enter column5")))
+C6=list(str(input("enter column6")))
+C7=list(str(input("enter column7")))
+C8=list(str(input("enter column8")))
+C9=list(str(input("enter column9")))
+
+#BLOCK DATA
+B1=list(str(input("enter block a1")))
+B2=list(str(input("enter block a2")))
+B3=list(str(input("enter block a3")))
+B4=list(str(input("enter block a4")))
+B5=list(str(input("enter block a5")))
+B6=list(str(input("enter block a6")))
+B7=list(str(input("enter block a7")))
+B8=list(str(input("enter block a8")))
+B9=list(str(input("enter block a9")))
+
+
+#COLUMN DATASET
+C=[1,2,3,4,5,6,7,8,9]
+
+C[0]=list(str(input("enter column1 ")))
+C[1]=list(str(input("enter column2 ")))
+C[2]=list(str(input("enter column3 ")))
+C[3]=list(str(input("enter column4 ")))
+C[4]=list(str(input("enter column5 ")))
+C[5]=list(str(input("enter column6 ")))
+C[6]=list(str(input("enter column7 ")))
+C[7]=list(str(input("enter column8 ")))
+C[8]=list(str(input("enter column9 ")))
+
+#BLOCK DATASET
+B=[1,2,3,4,5,6,7,8,9]
+
+B[0]=list(str(input("enter block a1 ")))
+B[1]=list(str(input("enter block a2 ")))
+B[2]=list(str(input("enter block a3 ")))
+B[3]=list(str(input("enter block a4 ")))
+B[4]=list(str(input("enter block a5 ")))
+B[5]=list(str(input("enter block a6 ")))
+B[6]=list(str(input("enter block a7 ")))
+B[7]=list(str(input("enter block a8 ")))
+B[8]=list(str(input("enter block a9 ")))
+
+
+
+#ROW DATASET
+R=[1,2,3,4,5,6,7,8,9]
+
+R[0]=list(str(input("enter row1 ")))
+R[1]=list(str(input("enter row2 ")))
+R[2]=list(str(input("enter row3 ")))
+R[3]=list(str(input("enter row4 ")))
+R[4]=list(str(input("enter row5 ")))
+R[5]=list(str(input("enter row6 ")))
+R[6]=list(str(input("enter row7 ")))
+R[7]=list(str(input("enter row8 ")))
+R[8]=list(str(input("enter row9 ")))
+
+
+n=5
+def sub_list(LST1,LST2):
+    LST3=[X for X in LST1 if X not in LST2]
+    print("UDF-2 worked")
+    return LST3
+DEFAULT=list(str(1234567890))
+list3=sub_list(DEFAULT,R[n])
+print(list3)
+
+
+
+
+R=[1,2,3,4,5,6,7,8,9]
+
+R[0]=list(str(input("enter row1 ")))
+R[1]=list(str(input("enter row2 ")))
+R[2]=list(str(input("enter row3 ")))
+R[3]=list(str(input("enter row4 ")))
+R[4]=list(str(input("enter row5 ")))
+R[5]=list(str(input("enter row6 ")))
+R[6]=list(str(input("enter row7 ")))
+R[7]=list(str(input("enter row8 ")))
+R[8]=list(str(input("enter row9 ")))
+
+C=[1,2,3,4,5,6,7,8,9]
+
+
+C[0]=[R[0][0],R[1][0],R[2][0],R[3][0],R[4][0],R[5][0],R[6][0],R[7][0],R[8][0]]
+C[1]=[R[0][1],R[1][1],R[2][1],R[3][1],R[4][1],R[5][1],R[6][1],R[7][1],R[8][1]]
+C[2]=[R[0][2],R[1][2],R[2][2],R[3][2],R[4][2],R[5][2],R[6][2],R[7][2],R[8][2]]
+C[3]=[R[0][3],R[1][3],R[2][3],R[3][3],R[4][3],R[5][3],R[6][3],R[7][3],R[8][3]]
+C[4]=[R[0][4],R[1][4],R[2][4],R[3][4],R[4][4],R[5][4],R[6][4],R[7][4],R[8][4]]
+C[5]=[R[0][5],R[1][5],R[2][5],R[3][5],R[4][5],R[5][5],R[6][5],R[7][5],R[8][5]]
+C[6]=[R[0][6],R[1][6],R[2][6],R[3][6],R[4][6],R[5][6],R[6][6],R[7][6],R[8][6]]
+C[7]=[R[0][7],R[1][7],R[2][7],R[3][7],R[4][7],R[5][7],R[6][7],R[7][7],R[8][7]]
+C[8]=[R[0][8],R[1][8],R[2][8],R[3][8],R[4][8],R[5][8],R[6][8],R[7][8],R[8][8]]
+
+n=5
+def sub_list(LST1,LST2):
+    LST3=[X for X in LST1 if X not in LST2]
+    print("UDF-2 worked")
+    return LST3
+DEFAULT=list(str(1234567890))
+list3=sub_list(DEFAULT,C[n])
+print(list3)
+
+
+B[0]=[R[0][0],R[1][0],R[2][0],R[0][1],R[1][1],R[2][1],R[0][2],R[1][2],R[2][2]]
+B[1]=[R[3][0],R[4][0],R[5][0],R[3][1],R[4][1],R[5][1],R[3][2],R[4][2],R[5][2]]
+B[2]=[R[6][0],R[7][0],R[8][0],R[6][1],R[7][1],R[8][1],R[6][2],R[7][2],R[8][2]]
+B[3]=[R[0][3],R[1][3],R[2][3],R[0][4],R[1][4],R[2][4],R[0][5],R[1][5],R[2][5]]
+B[4]=[R[3][3],R[4][3],R[5][3],R[3][4],R[4][4],R[5][4],R[3][5],R[4][5],R[5][5]]
+B[5]=[R[6][3],R[7][3],R[8][3],R[6][4],R[7][4],R[8][4],R[6][5],R[7][5],R[8][5]]
+B[6]=[R[0][6],R[1][6],R[2][6],R[0][7],R[1][7],R[2][7],R[0][8],R[1][8],R[2][8]]
+B[7]=[R[3][6],R[4][6],R[5][6],R[3][7],R[4][7],R[5][7],R[3][8],R[4][8],R[5][8]]
+B[8]=[R[6][6],R[7][6],R[8][6],R[6][7],R[7][7],R[8][7],R[6][8],R[7][8],R[8][8]]
+
+
+print(B[0])
+print(B[1])
+print(B[2])
+print(B[3])
+print(B[4])
+print(B[5])
+print(B[6])
+print(B[7])
+print(B[8])
+
+
+
+#ROW DATASET
+R=[0,1,2,3,4,5,6,7,8]
+
+R[0]=list(str(input("enter row1 ")))
+R[1]=list(str(input("enter row2 ")))
+R[2]=list(str(input("enter row3 ")))
+R[3]=list(str(input("enter row4 ")))
+R[4]=list(str(input("enter row5 ")))
+R[5]=list(str(input("enter row6 ")))
+R[6]=list(str(input("enter row7 ")))
+R[7]=list(str(input("enter row8 ")))
+R[8]=list(str(input("enter row9 ")))
+
+#COLUMN DATASET
+C=[0,1,2,3,4,5,6,7,8]
+
+C[0]=[R[0][0],R[1][0],R[2][0],R[3][0],R[4][0],R[5][0],R[6][0],R[7][0],R[8][0]]
+C[1]=[R[0][1],R[1][1],R[2][1],R[3][1],R[4][1],R[5][1],R[6][1],R[7][1],R[8][1]]
+C[2]=[R[0][2],R[1][2],R[2][2],R[3][2],R[4][2],R[5][2],R[6][2],R[7][2],R[8][2]]
+C[3]=[R[0][3],R[1][3],R[2][3],R[3][3],R[4][3],R[5][3],R[6][3],R[7][3],R[8][3]]
+C[4]=[R[0][4],R[1][4],R[2][4],R[3][4],R[4][4],R[5][4],R[6][4],R[7][4],R[8][4]]
+C[5]=[R[0][5],R[1][5],R[2][5],R[3][5],R[4][5],R[5][5],R[6][5],R[7][5],R[8][5]]
+C[6]=[R[0][6],R[1][6],R[2][6],R[3][6],R[4][6],R[5][6],R[6][6],R[7][6],R[8][6]]
+C[7]=[R[0][7],R[1][7],R[2][7],R[3][7],R[4][7],R[5][7],R[6][7],R[7][7],R[8][7]]
+C[8]=[R[0][8],R[1][8],R[2][8],R[3][8],R[4][8],R[5][8],R[6][8],R[7][8],R[8][8]]
+
+#BLOCK DATASET
+B=[0,1,2,3,4,5,6,7,8]
+
+B[0]=[R[0][0],R[0][1],R[0][2],R[1][0],R[1][1],R[1][2],R[2][0],R[2][1],R[2][2]]
+B[1]=[R[0][3],R[0][4],R[0][5],R[1][3],R[1][4],R[1][5],R[2][3],R[2][4],R[2][5]]
+B[2]=[R[0][6],R[0][7],R[0][8],R[1][6],R[1][7],R[1][8],R[2][6],R[2][7],R[2][8]]
+B[3]=[R[3][0],R[3][1],R[3][2],R[4][0],R[4][1],R[4][2],R[5][0],R[5][1],R[5][2]]
+B[4]=[R[3][3],R[3][4],R[3][5],R[4][3],R[4][4],R[4][5],R[5][3],R[5][4],R[5][5]]
+B[5]=[R[3][6],R[3][7],R[3][8],R[4][6],R[4][7],R[4][8],R[5][6],R[5][7],R[5][8]]
+B[6]=[R[6][0],R[6][1],R[6][2],R[7][0],R[7][1],R[7][2],R[8][0],R[8][1],R[8][2]]
+B[7]=[R[6][3],R[6][4],R[6][5],R[7][3],R[7][4],R[7][5],R[8][5],R[8][4],R[8][5]]
+B[8]=[R[6][6],R[6][7],R[6][8],R[7][6],R[7][7],R[7][8],R[8][6],R[8][7],R[8][8]]
+
+
+print("The given question is")
+print(R[0])
+print(R[1])
+print(R[2])
+print(R[3])
+print(R[4])
+print(R[5])
+print(R[6])
+print(R[7])
+print(R[8])
+
+#Processing ROW DATASET
+PR=[0,1,2,3,4,5,6,7,8]
+n=0
+while(n<=8):
+    #Function block 1
+    def sub_list(LST1,LST2):
+        LST3=[X for X in LST1 if X not in LST2]
+        print("UDF-1 worked",n,"times")
+        return LST3
+    DEFAULT=list(str(123456789))
+    PR[n]=sub_list(DEFAULT,R[n])
+    if(len(PR[n])=0):
+       PR[n]=0
+    n=n+1
+    
+#Processing COLUMN DATASET
+PC=[0,1,2,3,4,5,6,7,8]
+n=0
+while(n<=8):
+    #Function block 2
+    def sub_list(LST1,LST2):
+        LST3=[X for X in LST1 if X not in LST2]
+        print("UDF-2 worked",n,"times")
+        return LST3
+    DEFAULT=list(str(123456789))
+    PC[n]=sub_list(DEFAULT,C[n])
+    if(len(PC[n])=0):
+       PC[n]=0
+    n=n+1
+#Processing BLOCK DATASET
+PB=[0,1,2,3,4,5,6,7,8]
+n=0
+while(n<=8):
+    #Function block 3
+    def sub_list(LST1,LST2):
+        LST3=[X for X in LST1 if X not in LST2]
+        print("UDF-3 worked",n,"times")
+        return LST3
+    DEFAULT=list(str(123456789))
+    PB[n]=sub_list(DEFAULT,B[n])
+    if(len(PB[n])=0):
+       PB[n]=0
+    n=n+1
+print("the processed row data is")
+print(PR)
+print("the processed column data is")
+print(PC)
+print("the processed block data is")
+print(PB)
+
+
+#Generating Hash Value
+ASH_B=[0,1,2,3,4,5,6,7,8]
+n=0
+while(n<=8):
+    #Function block 3
+    def sub_list(LST1,LST2):
+        LST3=[X for X in LST1 if X in LST2]
+        print("UDF-3 worked",n,"times")
+        return LST3
+    DEFAULT=list(str(123456789))
+    PB[n]=sub_list(DEFAULT,B[n])
+    n=n+1
+
+
+#CORRECTED ROW PROCESSING
+R=['1','2','3','6','7','9','4','5','8']
+#Processing ROW DATASET
+PR=["0","1","2","3","4","5","6","7","8"]
+
+#Function block 1
+def sub_list(LST1,LST2):
+    LST3=[X for X in LST1 if X not in LST2]
+    print("UDF-1 worked")
+    return LST3
+DEFAULT=list(str(123456789))
+PR=sub_list(DEFAULT,R)
+    
+print(PR)
+
+
+#Generating Hash Value
+ASH_B=[0,1,2,3,4,5,6,7,8]
+
+P=['1','2','4','5','6','7','8']
+C=['0']
+B=['1','5','7','8','9']
+
+#Function block 4
+def same_list(LST1,LST2,LST3,LST4):
+    LST5=[X for X in LST1 if X in LST2 and X in LST1 if X in LST3 and X in LST1 if X in LST4]
+    print("UDF-3 worked","times")
+    return LST5
+DEFAULT=list(str(123456789))
+ASH_B=same_list(DEFAULT,P,C,B)
+if(len(ASH_B)==0):
+    ASH_B=['0']
+
+print(ASH_B)
