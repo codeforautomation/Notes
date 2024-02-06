@@ -7,7 +7,7 @@ enter row6 003705210
 enter row7 276004500
 enter row8 130057009
 enter row9 945600027
-
+  
 
 
 final value is 
