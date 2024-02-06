@@ -398,4 +398,4 @@ ASH_B=same_list(DEFAULT,P,C,B)
 if(len(ASH_B)==0):
     ASH_B=['0']
 
-print(ASH_B)
+print(ASH_B)  
